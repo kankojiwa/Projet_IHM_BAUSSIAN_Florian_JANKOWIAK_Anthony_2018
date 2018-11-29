@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="600.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="417.0" layoutY="14.0" prefHeight="40.0" prefWidth="125.0" text="Accueil">
+         <font>
+            <Font size="34.0" />
+         </font>
+      </Label>
+      <Button layoutX="294.0" layoutY="90.0" mnemonicParsing="false" text="Magazine">
+         <font>
+            <Font size="58.0" />
+         </font>
+      </Button>
+      <Button layoutX="294.0" layoutY="246.0" mnemonicParsing="false" prefHeight="109.0" prefWidth="355.0" text="Exercice">
+         <font>
+            <Font size="58.0" />
+         </font>
+      </Button>
+      <Button layoutX="295.0" layoutY="394.0" mnemonicParsing="false" prefHeight="109.0" prefWidth="355.0" text="Outils">
+         <font>
+            <Font size="58.0" />
+         </font>
+      </Button>
+    <Button layoutX="818.0" layoutY="27.0" mnemonicParsing="false" text="Option" textFill="#e82121">
+         <effect>
+            <ImageInput />
+         </effect>
+      </Button>
+   </children>
+</AnchorPane>
