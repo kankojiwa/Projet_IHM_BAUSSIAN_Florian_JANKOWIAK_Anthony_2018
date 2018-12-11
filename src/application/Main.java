@@ -15,7 +15,7 @@ public class Main extends Application {
 		try {
 			 primaryStage.setTitle("Accueil");
 			FXMLLoader loader = new FXMLLoader();
-            loader.setLocation(Main.class.getResource("../view/Accueil.fxml"));
+            loader.setLocation(Main.class.getResource("../view/AccueilV2.fxml"));
             rootLayout = (AnchorPane) loader.load();        
             // Show the scene containing the root layout.
             Scene scene = new Scene(rootLayout);
